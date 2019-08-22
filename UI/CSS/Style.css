@@ -1,0 +1,66 @@
+    body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/UI/Assets/res.jpg");
+    background-size: cover;
+}
+
+.logo {
+    height: 5%;
+    width: 6%;
+}
+
+nav {
+    background: rgb(56, 41, 99);
+}
+
+header {}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    flex: 1 0 auto;
+}
+
+nav li a {
+    display: block;
+    padding: 2px;
+    font-size: 15px;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a:hover {
+    color: rgb(20, 10, 34);
+    background-color: rgb(105, 147, 236);
+    color: #ffccaa;
+    transition: background 2s;
+}
+
+#bt {
+    height: 50px;
+    width: 330px;
+    font-size: 15px;
+    margin-top: 180px;
+    margin-left: 500px;
+    background-color: rgb(220, 235, 240);
+    border: 3px solid #000;
+    color: rgba(0, 3, 2, 0.829);
+    color: #000;
+    transition: background 2s;
+}
+
+#bt:hover {
+    background-color: rgb(23, 45, 67);
